@@ -24,7 +24,7 @@
         </nav>
     </header>
     
-    <main>
+    <main class="d-flex justify-content-center">
         <article class="card text-center col-10">
             <figure class="card-img-top">
                 <img src="https://picsum.photos/id/235/900/400"></img>
@@ -41,28 +41,32 @@
                     Ut vitae libero finibus, aliquam libero quis, vestibulum elit. Donec nec justo aliquam, placerat urna non, euismod nunc. Quisque luctus egestas nibh, in accumsan metus fringilla sed. Nulla vitae molestie sapien, at fringilla justo. Nullam lobortis eu sapien iaculis mattis. Suspendisse vel orci arcu. Aenean facilisis nisl eget turpis auctor faucibus. In vitae tempus nibh. Nulla molestie lobortis lacus, nec dignissim metus posuere a. Quisque rutrum fermentum diam eu lacinia. Aliquam a consequat lorem, sit amet mollis tortor. Proin mollis mauris quis felis sagittis, ut congue odio imperdiet. Donec ullamcorper ante massa, et sollicitudin tellus efficitur sit amet. Duis vestibulum eleifend tellus, gravida varius dolor.
 
                     Maecenas posuere neque at nunc commodo tincidunt. Nullam ultrices ligula eget tempor facilisis. Nulla non est ac dui sollicitudin pretium nec non ex. Nam at arcu ac risus varius vestibulum. Maecenas a risus tincidunt, luctus dolor vel, porta lectus. Donec lectus ante, interdum pretium rhoncus quis, venenatis eget arcu. Phasellus lobortis pharetra urna nec porta.</p>
-                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Supprimer l'article</button>
                 
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Supprimer l'article</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
-                            </div>
-                            <div class="modal-body">
-                                <p>Voulez-vous vraiment supprimer cet article ?</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
-                                <button type="button" class="btn btn-primary">Supprimer</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                <a href="edition.html" class="btn btn-primary">Editer l'article</a>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Supprimer l'article</button>
+            </section>    
         </article>
         
+                        
+                
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Supprimer l'article</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Voulez-vous vraiment supprimer cet article ?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                        <button type="button" class="btn btn-primary">Supprimer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
